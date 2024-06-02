@@ -1,4 +1,5 @@
 Faruk Akdemir  150119012
+
 Yasin Sefa Kırman 150119034
 
 Project Overview
@@ -27,10 +28,24 @@ Man-in-the-Middle Attack: If an attacker intercepts the communication between th
 Key Management: If private keys are compromised, the security of the system is at risk. An attacker with access to a private key can impersonate a user.
 Replay Attack: An attacker could capture and replay legitimate messages to perform unauthorized actions.
 Denial of Service (DoS): An attacker could flood the server with registration or image upload requests to overwhelm the system.
+
+
 Countermeasures
 TLS/SSL: Implementing TLS/SSL for all communications between clients and the server can mitigate man-in-the-middle attacks by ensuring data is encrypted during transmission.
 Secure Key Storage: Using secure storage mechanisms for private keys, such as hardware security modules (HSMs) or secure enclaves, can prevent key compromise.
 Nonce/Token Mechanism: Implementing nonces or tokens for each transaction can prevent replay attacks by ensuring each request is unique.
 Rate Limiting and Captchas: Implementing rate limiting and captchas for registration and image upload endpoints can mitigate DoS attacks by preventing automated abuse.
+
+
 Conclusion
 The image sharing system provides a secure method for users to share images by incorporating encryption, digital signatures, and certificate-based authentication. While the design addresses many security concerns, continuous evaluation and improvement of the system are necessary to address emerging threats and vulnerabilities.
+
+
+
+
+
+
+
+
+
+
